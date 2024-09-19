@@ -1,0 +1,26 @@
+.title{
+  padding: 5px 0px 10px 0px;
+  border-bottom: 2px solid;
+}
+.button{
+  margin-top: 10px;
+}
+
+.btn_container{
+  padding-top: 25px;
+  display: flex;
+}
+
+.subcription_btn{
+  margin-right: 15px;
+}
+
+.subcription_btn a,
+.revenue_btn a{
+  text-decoration: none;
+}
+
+.subcription_btn a:hover,
+.revenue_btn a:hover{
+  color: #fff;
+}

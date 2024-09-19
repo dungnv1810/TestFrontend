@@ -1,0 +1,69 @@
+.title{
+  padding: 5px 0px 10px 0px;
+  border-bottom: 2px solid;
+}
+.button{
+  margin-top: 10px;
+}
+
+.container_setting{
+  padding-top: 40px;
+}
+
+.title_input,
+.email_input,
+.bgColor_input,
+.activeDate_input{
+  display: flex;
+  flex-direction: column;
+}
+
+.title_input label,
+.email_input label,
+.bgColor_input label,
+.activeDate_input label{
+  font-size: 17px;
+  font-weight: 400;
+  color: #115bb2;
+}
+
+.bgColor{
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+}
+
+.select_bgColor{
+ position: absolute;
+ right: 46%;
+ width: 50px;
+ border: none;
+ background-color: transparent;
+}
+
+.inputStyle{
+  width: 250px;
+  padding: 8px;
+  margin: 10px 0px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.btn_save{
+  padding-top: 30px;
+  text-align: center;
+}
+.btn_save button{
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 15px;
+  border-radius: 15px;
+  color: #115bb2;
+  border: 3px solid #115bb2;
+  background-color: transparent;
+  transition: 0.3s ease;
+}
+.btn_save button:hover{
+  color: #fff;
+  background-color: #115bb2;
+}
